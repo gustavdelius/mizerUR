@@ -1,0 +1,20 @@
+Package: mizerUR
+Type: Package
+Title: Unstructured Resources for Mizer
+Version: 0.1.0
+Maintainer: Gustav Delius <gustav.delius@york.ac.uk>
+Authors@R: person("Gustav", "Delius", email = "gustav.delius@york.ac.uk",
+                  role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Imports:
+    assertthat,
+    mizer
+Depends:
+    R (>= 3.1)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+RoxygenNote: 7.0.2
