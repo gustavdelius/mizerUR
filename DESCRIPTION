@@ -5,8 +5,14 @@ Version: 0.1.0
 Maintainer: Gustav Delius <gustav.delius@york.ac.uk>
 Authors@R: person("Gustav", "Delius", email = "gustav.delius@york.ac.uk",
                   role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: This is an extension package for the mizer package
+https://sizespectrum.org/mizer/. Mizer has a size-structured planktonic
+resource. With this extension you can also model any number of unstructured
+resource components. Such unstructured components are appropriate whenever the
+predation on these components is not size based.
+Possible applications include the modelling of detritus as a resource for
+detritivores, carrion as a resource for scavengers, or macroflora on which fish
+can graze.
 License: GPL-3
 Imports:
     assertthat,
@@ -18,5 +24,5 @@ LazyData: true
 Suggests: 
     testthat (>= 2.1.0)
 RoxygenNote: 7.0.2
-URL: https://github.com/gustavdelius/mizerUR
+URL: https://gustavdelius.github.io/mizerUR/, https://github.com/gustavdelius/mizerUR
 BugReports: https://github.com/gustavdelius/mizerUR/issues
