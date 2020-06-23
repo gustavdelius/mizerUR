@@ -7,6 +7,8 @@
 
 <!-- badges: end -->
 
+**The extension mechanism in mizer has evolved further. This package is now obsolete.**
+
 This is an extension package for the mizer package
 <https://sizespectrum.org/mizer/>. Mizer has a size-structured
 planktonic resource. With this extension you can also model any number
